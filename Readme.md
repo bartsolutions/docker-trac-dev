@@ -18,12 +18,12 @@ You should have docker installed, if not please run the following command:
 
 **How to Use:**
 - Check Trac server is up: use any browser to open `http://localhost:3080`
-- Access the docker instance: `ssh root@localhost -p 3022` (password: `trac`)
 - Stop the docker instance: `docker stop trac-dev`
 - Restart the docker instance: `docker start trac-dev`
 - Remove the docker instance (***caution***): `docker rm trac-dev`
 
 **Play Around:**
+- SSH into the docker instance first, `ssh root@localhost -p 3022` (password: `trac`)
 - Trac source code is located at `/root/trac-trunk`
 - Trac test site (site configuration) is located at `/root/test`
 - Try to run unit test: `cd /root/trac-trunk && python -m trac.ticket.tests.batch`
