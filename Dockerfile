@@ -13,7 +13,8 @@ RUN apt-get -y update && \
 	subversion \ 
 	python-subversion \
         openssh-server \
-	supervisor
+	supervisor \
+	vim
 
 
 
@@ -44,6 +45,7 @@ RUN echo "root:trac" | chpasswd
 EXPOSE 8000 22
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY restart_trac.sh /root/restart_trac.sh
 
 #CMD ["bash"]
 CMD ["/usr/bin/supervisord"]
