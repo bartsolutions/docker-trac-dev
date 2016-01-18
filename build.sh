@@ -1,1 +1,1 @@
-docker build -t trac-dev-v2 -f `pwd`/Dockerfile .
+docker build -t docker-trac-dev -f `pwd`/Dockerfile .
