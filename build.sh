@@ -1,1 +1,1 @@
-docker build -t docker-trac-dev -f `pwd`/Dockerfile .
+docker build -t walty8/docker-trac-dev -f `pwd`/Dockerfile .

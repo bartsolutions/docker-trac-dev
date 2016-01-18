@@ -1,1 +1,1 @@
-docker run -d -p 2200:22 -p 8000:80 -t docker-trac-dev
+docker run -d -p 3022:22 -p 3080:8000 -t --name=trac-dev walty8/docker-trac-dev 
