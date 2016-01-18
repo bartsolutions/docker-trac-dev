@@ -7,6 +7,7 @@ Hopefully people could start developing and tuning Trac related code in 5 minute
 https://hub.docker.com/r/walty8/docker-trac-dev/
 
 **Dependency**
+
 You should have docker installed, if not please run the following command:
 
 `apt-get install docker.io`
