@@ -1,0 +1,7 @@
+#!/bin/sh
+read oldrev newrev refname
+
+#for trac hook
+REV=$(git rev-list $oldrev..$newrev)
+export PYTHON_EGG_CACHE="/root/.python-eggs"
+/usr/local/bin/trac-admin /root/test  changeset added /root/git-repo $REV 
