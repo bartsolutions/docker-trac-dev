@@ -9,7 +9,7 @@ It aims to help people start [developing Trac](http://trac.edgewall.org/wiki/Tra
 **How to Install:**
 - [Install docker](https://docs.docker.com/engine/installation/)
 - `git clone https://github.com/walty8/docker-trac-dev`
-- `cd docker-trac-dev && sudo sh run.sh`
+- `cd docker-trac-dev && sudo sh run.sh` (This would download a precompiled **~200MB** image from Dokcer Hub, for the first run.)
 
 
 **Features**
