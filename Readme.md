@@ -1,4 +1,4 @@
-This project contains a `Dockerfile` for the [auomated build in DockerHub](https://hub.docker.com/r/walty8/docker-trac-dev/).
+This project contains the `Dockerfile` for [an auomated build project  in DockerHub](https://hub.docker.com/r/walty8/docker-trac-dev/).
 
 It aims to help people start [developing Trac](http://trac.edgewall.org/wiki/TracDev) in 5 minutes.
 
