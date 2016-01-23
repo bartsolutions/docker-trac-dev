@@ -2,7 +2,7 @@ This project contains a `Dockerfile` for the [auomated build in DockerHub](https
 
 It aims to help people start [developing Trac](http://trac.edgewall.org/wiki/TracDev) in 5 minutes.
 
-***Please note that all Docker commands need the 'sudo' permssion!***
+***Please note that all Docker commands need the root permssion!***
 
 ---- 
 
