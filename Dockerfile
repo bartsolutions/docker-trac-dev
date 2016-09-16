@@ -37,7 +37,7 @@ RUN htpasswd -b test/passwd user2 pass2
 RUN htpasswd -b test/passwd user3 pass3
 
 #Set up Trac developer plugin
-RUN svn co http://trac-hacks.org/svn/tracdeveloperplugin/trunk/ tracdeveloperplugin
+RUN svn co https://trac-hacks.org/svn/tracdeveloperplugin/trunk/ tracdeveloperplugin
 RUN cd tracdeveloperplugin && python setup.py bdist_egg && cp dist/*.egg ../test/plugins
 
 
